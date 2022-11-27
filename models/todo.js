@@ -15,6 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       console.log("My Todo list \n");
 
       console.log("Overdue");
+      // FILL IN HERE
       console.log(
         (await Todo.overdue())
           .map((todo) => {
